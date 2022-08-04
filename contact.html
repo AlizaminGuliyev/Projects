@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="icon" href="http://cdn.onlinewebfonts.com/svg/img_207240.png" />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <p>
+      Aşağıdakı nümunə BÜTÜN elementlərin (həmin səhifədəki) mətn rəngini mavi,
+      BÜTÜN elementlərin mətn rəngini isə qırmızı olaraq təyin edir. Bundan
+      əlavə, səhifə "toz mavisi" fon rəngi ilə göstəriləcək:
+    </p>
+    <h2>
+      Aşağıdakı nümunə BÜTÜN elementlərin (həmin səhifədəki) mətn rəngini mavi,
+      BÜTÜN elementlərin mətn rəngini isə qırmızı olaraq təyin edir. Bundan
+      əlavə, səhifə "toz mavisi" fon rəngi ilə göstəriləcək:
+    </h2>
+    <br />
+    <a href="https://www.w3schools.com/html/html_links.asp" target="_parent">
+      Link</a
+    >
+    <a href="http://cdn.onlinewebfonts.com/svg/img_207240.png"
+      ><img
+        src="http://cdn.onlinewebfonts.com/svg/img_207240.png"
+        alt="Train image"
+    /></a>
+    <a href="mailto:someone@example.com">Send email</a>
+    <a href="mailto:Ali@gmail.com">MAil</a><br /><br /><br />
+    <form action="">
+      <label for="fname">First name</label><br />
+      <input type="text" name="fname" placeholder="Ad" /><br />
+      <label for="lname">Last name</label><br />
+      <input type="text" name="lname" placeholder="Soyad" />
+      <input type="submit" value="Submit" />
+    </form>
+    <hr />
+    <br />
+    <form
+      action=""
+      method="post"
+      enctype="application/x-www-form-urlencoded"
+      novalidate
+    >
+      <input type="radio" name="gender" value="Kisi" id="Kisi" />
+      <label for="Kisi"> Kisi</label> <br />
+      <input type="radio" name="gender" value="Qadin" id="Qadin" />
+      <label for="Qadin">Qadin</label>
+    </form>
+    <hr />
+    <br /><br />
+    <form action="">
+      <label for="car">Car</label>
+      <select name="car" id="car" size="2">
+        <option value="BMW">BMW</option>
+        <option value="MERCEDES" selected>MERCEDES</option>
+      </select>
+    </form>
+    <hr />
+    <form
+      action=""
+      method="post"
+      novalidate
+      enctype="application/x-www-form-urlencoded"
+    >
+      <input type="checkbox" id="first" name="first" />
+      <label for="first">Azerbaijan</label><br />
+      <input type="checkbox" id="secend" name="secend" />
+      <label for="secend">USA</label><br />
+      <input type="checkbox" name="third" id="third" />
+      <label for="third">World</label><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <hr />
+    <label for="cars">select your car(cars): </label>
+    <select name="cars" id="cars">
+      <option value="bmw">bmw</option>
+      <option value="MERCEDES">mercedes</option>
+      <option value="kia">kia</option>
+    </select>
+    <hr />
+    <textarea
+      name="texts"
+      id=""
+      cols="30"
+      rows="10"
+      placeholder="Ali"
+    ></textarea>
+    <hr />
+    <form action="">
+      <input list="browsers" name="browsers" />
+      <datalist id="browsers">
+        <option value="internet explorer"></option>
+        <option value="chrome"></option>
+        <option value="safari"></option>
+        <option value="opera"></option>
+        <option value="firefox"></option>
+      </datalist>
+      <input type="submit" value="Sabmit" />
+    </form>
+    <br /><br /><br />
+    <hr />
+    <form action="">
+      <label for="files">select the file</label>
+      <input type="file" name="files" id="files" />
+    </form>
+  </body>
+</html>
